@@ -4267,14 +4267,14 @@ screen and (min-width: 64em) {
 }
 
 .button.hollow {
-  border: 1px solid #1779ba;
-  color: #1779ba;
+  border: 1px solid black;
+  color: black;
 }
 
 .button.hollow,
 .button.hollow:hover,
 .button.hollow:focus {
-  background-color: transparent;
+  background-color:transparent;
 }
 
 .button.hollow.disabled,
@@ -4320,14 +4320,15 @@ screen and (min-width: 64em) {
 }
 
 .button.hollow.secondary {
-  border: 1px solid #767676;
-  color: #767676;
+  border: 0px solid black;
+  color: black;
 }
 
 .button.hollow.secondary:hover,
 .button.hollow.secondary:focus {
-  border-color: #3b3b3b;
-  color: #3b3b3b;
+  border-color: transparent;
+  /* color: #3b3b3b; */
+  background: lightgray;
 }
 
 .button.hollow.secondary:hover.disabled,

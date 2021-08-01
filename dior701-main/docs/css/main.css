@@ -168,7 +168,7 @@ a:hover {
 }
 
 .grey {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 
     color: grey;
 
@@ -206,7 +206,7 @@ a:hover {
 }
 
 .black {
-    background-color: #191D27;
+    background: #191D27;
     
 }
 
