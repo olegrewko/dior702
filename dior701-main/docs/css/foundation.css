@@ -4269,6 +4269,7 @@ screen and (min-width: 64em) {
 .button.hollow {
   border: 1px solid black;
   color: black;
+  background-color:transparent;
 }
 
 .button.hollow,
@@ -4276,7 +4277,17 @@ screen and (min-width: 64em) {
 .button.hollow:focus {
   background-color:transparent;
 }
+.button-group.hollow {
+  border: 1px solid black;
+  color: black;
+  background-color:transparent;
+}
 
+.button-group.hollow,
+.button-group.hollow:hover,
+.button-group.hollow:focus {
+  background-color:transparent;
+}
 .button.hollow.disabled,
 .button.hollow.disabled:hover,
 .button.hollow.disabled:focus,
