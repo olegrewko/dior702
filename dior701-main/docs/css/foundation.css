@@ -8034,9 +8034,12 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 
 .tabs {
   margin: 0;
-  border: 1px solid #e6e6e6;
-  background: #fefefe;
-  list-style-type: none;
+  /* border: 1px solid #e6e6e6;
+  background: #fefefe; */
+  border: 0px solid #e6e6e6;
+  background: transparent;
+  color: maroon;
+  list-style-type: underline;
 }
 
 .tabs::before,
@@ -8100,14 +8103,17 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 
 .tabs-title>a:hover {
-  background: #fefefe;
+  /* background: #fefefe; */
+  background: transparent;
   color: #1468a0;
 }
 
 .tabs-title>a:focus,
 .tabs-title>a[aria-selected="true"] {
-  background: #e6e6e6;
-  color: #1779ba;
+  background: transparent;
+  /* color: maroon; */
+  list-style-type: none;
+  text-decoration: underline gray;
 }
 
 .tabs-content {

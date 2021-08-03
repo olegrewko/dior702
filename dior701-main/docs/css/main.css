@@ -112,8 +112,22 @@ p, li {
 .pr {
     padding-right: 1 rem;
 }
-
-
+.grey10rem {
+    font-family: 'Montserrat';
+    /* font-family: 'Gowun Batang', serif; */
+    color: #191D27;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
+.grey9rem {
+    font-family: 'Montserrat';
+    /* font-family: 'Gowun Batang', serif; */
+    color: #191D27;
+    font-weight: 500;
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
 .grey6rem {
     /* font-family: 'Montserrat'; */
     font-family: 'Gowun Batang', serif;
@@ -131,7 +145,17 @@ p, li {
     line-height: 1.1;
 
 }
-
+.movie-container {
+    position: relative;
+    padding-bottom: 56.25%;  
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+.movie-fixed {
+    max-width: 800px;
+    margin: auto;
+}
 
 img {
     width: 100%;
@@ -420,6 +444,20 @@ dt {
     }
 
 }
+/* .wrapvideoadaptive{
+    display: none;
+}
+@media (width: 640px) {
+    .wrapvideo{
+        display: none;
+
+
+    }
+    .wrapvideoadaptive{
+        display: block;
+    }
+
+} */
 
 @media (max-width: 1000px) {
     iframe {
