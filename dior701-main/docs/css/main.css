@@ -112,6 +112,11 @@ p, li {
 .pr {
     padding-right: 1 rem;
 }
+grey {
+    font-family: 'Montserrat';
+    /* font-family: 'Gowun Batang', serif; */
+    color: #191D27; 
+}
 .grey10rem {
     font-family: 'Montserrat';
     /* font-family: 'Gowun Batang', serif; */

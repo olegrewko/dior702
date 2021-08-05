@@ -8117,7 +8117,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 
 .tabs-content {
-  border: 1px solid #e6e6e6;
+  border: 0px solid #e6e6e6;
   border-top: 0;
   background: #fefefe;
   color: #0a0a0a;
@@ -8126,7 +8126,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 
 .tabs-content.vertical {
-  border: 1px solid #e6e6e6;
+  border: 0px solid #e6e6e6;
   border-left: 0;
 }
 
